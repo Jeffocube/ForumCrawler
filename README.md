@@ -124,4 +124,5 @@ Module file are made in JSON format in order to tell crawler about rules and whi
 There are at least 2 module files needed to be specified to crawl a simple site. ([thread module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_thread.py) and [post module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_questions.py))
 
 ##### 1) use browser 
-<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/1.jpg" width="600" height="600">
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/1.jpg" width="500" height="600">
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/2.jpg" width="1920" height="950">
