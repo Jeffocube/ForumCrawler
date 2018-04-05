@@ -67,7 +67,7 @@ https://www.wilderssecurity.com/forums/mobile-device-security.141/ wildersecurit
 Module file are made in JSON format in order to tell crawler about rules and which content data should be creawled in each site. It consisted of 3 parts, http_rules, elements and new_jobs. Module file uses Xpath to get specific elements in from html format and use regular expression for extrating certain value. Here is an example of [wildersecurity_thread module](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/models.py) file  
 
 ##### 1) http_rules - specify POST/GET html page & stop condition.
-```json
+```
  'method'  : 'GET',
     'page' : {
         'key'   : 'page',
@@ -80,7 +80,7 @@ Module file are made in JSON format in order to tell crawler about rules and whi
 ```
 'stop' value is used for stopping condition. If stop == true, it will stop at current page.
 ##### 2) elements - specify elements needed to save in JSON format with Xpath.
-```json
+```
     'path': '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]',
     'attributes': {
         'title' : {
@@ -109,10 +109,10 @@ Module file are made in JSON format in order to tell crawler about rules and whi
 ```
 'path' uses Xpath to get to specific element in html format. It consists of base path and extend path in 'attributes'. 
 'attrib' uses to speficify type of input(plain text, href). Regular expression is used to help extracting part of string.
-##### this 'attributes' in elements will later be save in JSON format as crawled data. 
+##### This 'attributes' in elements will later be save in JSON format as crawled data. 
 
 ##### 3) new_jobs - adding more jobs to running crawler stacks. Typically, it will point to another module file for each thread module file. 
-```json
+```
     'path' : '//*[contains(@id,"thread")]/div[2]/div/h3/a',
     'module': 'wildersecurity_questions',
     'prefix': 'http://www.wilderssecurity.com/',
