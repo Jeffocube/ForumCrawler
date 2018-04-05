@@ -1,6 +1,6 @@
 # ForumCrawler(Centipede)
 
-Forumcrawler is a web crawler based on Centipede library. It was made to crawl any forums on specific contents in certain websites with job file. 
+Forumcrawler is a web crawler based on Centipede library. It was made by UCR students to crawl any forums on specific contents in certain websites with job file. 
 
 -------------
 # Requirements
@@ -26,17 +26,16 @@ After cloning repository, you can test running forum crawler with predefined job
 
     $ python crawler.py --debug --debug-level 2 -f wilder_job
 
+There are multiple arguments needed to specify for running a forum crawler. 
 
+    $ python crawler.py <options> -f <path to job file> 
 
-Now, if Python on your system is configured properly (else see
-"Troubleshooting" below), you can type-check the [statically typed parts] of a
-program like this:
+Here are available options. 
+ - -debug; turn on debugging messages
+ - --debug-level; detail of debugging messages [1 , 3]'
+ - -c, --compress; archive the JSON result directory in compressed file
+ - -f, --job; path to job file
+    
 
-    $ mypy PROGRAM
-
-You can always use a Python interpreter to run your statically typed
-programs, even if they have type errors:
-
-    $ python3 PROGRAM
 
 [statically typed parts]: http://mypy.readthedocs.io/en/latest/basics.html#function-signatures
