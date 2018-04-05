@@ -51,7 +51,7 @@ https://www.wilderssecurity.com/forums/mobile-device-security.141/ wildersecurit
 ```
 -------------
 # Module file
-Module file are made in JSON format in order to tell crawler about rules and which content data should be creawled in each site. It consisted of 3 parts, http_rules, elements and new_jobs. Module file uses Xpath to get specific elements in from html format and use regular expression for extrating certain value. 
+Module file are made in JSON format in order to tell crawler about rules and which content data should be creawled in each site. It consisted of 3 parts, http_rules, elements and new_jobs. Module file uses Xpath to get specific elements in from html format and use regular expression for extrating certain value. Here is an example of [wildersecurity_thread module](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/models.py) file  
 
 ##### 1) http_rules - specify POST/GET html page & stop condition.
 ```json
@@ -61,10 +61,11 @@ Module file are made in JSON format in order to tell crawler about rules and whi
         'value' : 1,
     },
     
-    # 'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0,
-    'stop' :  lambda x: int(x.xpath('//*[@id="content"]/div/div/div[3]//a[contains(@class,"currentPage")]/text()')[0]) == 1,
+    'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0,
+    # 'stop' :  lambda x: int(x.xpath('//*[@id="content"]/div/div/div[3]//a[contains(@class,"currentPage")]/text()')[0]) == 1,
     # 'stop' : lambda x: True,
 ```
+'stop' value is used for stopping condition. If stop == true, it will stop at current page.
 
 -------------
 # How to create new module file for specific site. 
