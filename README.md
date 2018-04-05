@@ -119,9 +119,98 @@ Module file are made in JSON format in order to tell crawler about rules and whi
 ```
 
 -------------
-# How to create new module file with xPath for specific site. 
+# How to create new module file with Xpath for specific site. 
 
-There are at least 2 module files needed to be specified for crawl a simple site. ([thread module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_thread.py) and [post module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_questions.py))
+There are at least 2 module files needed to be specified to crawl a simple site. ([thread module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_thread.py) and [post module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_questions.py))
+This example is for crawling in https://www.wilderssecurity.com/forums/mobile-device-security.141/. (wilderssecurity in mobile-device-security.141 section)
+
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/1.jpg" width="500" height="600">
+1) use browser (recommmended chrome) to get an Xpath of element. Right click on element and inspect. It will show html tag for that element on the right side.
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/2.jpg">
+2) Then click on copy Xpath for specific element. You will get that element Xpath.
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/3.jpg">
+
+Noted: Some results of copy Xpath is not shown to top level of DOM. You have to trace back to top level for prevent ambiguity when referring. For example on getting url,
+```
+From base Xpath  
+//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]
+[id==Content]
+    -->div
+        -->div
+            -->div[0]
+            .
+            .
+            .
+            -->div[4]
+                -->form
+                    -->ol
+                        -->li[contains(@id,"thread")]
+            
+From copy Xpath for url
+//*[@id="thread-402211"]/div[2]/div/h3/a
+
+[contains(@id,"thread")]
+    -->div[0]
+    -->div[1]
+    -->div[2]
+        -->div
+            -->h3
+                -->a
 
 
-##### 1)
+generalize to get all possible threads ( use '.' for relative from base path and use 'contain' to get lists which its id contain 'thread' )
+
+'path': '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]'
+'url' : {
+            'path'  : './div[2]/div/h3/a', 
+            'attrib': 'href'},
+            
+```
+## Here is some tips and tricks for Xpath and other configurations
+
+1) There are generally 3 types of data you can get from html tags. 
+    - **plain text**, you can get by using text().
+    ```
+    'title' : {
+            'path'  : './div[2]/div/h3/a/text()', 
+            'attrib': 'text'}
+    ```
+    - **url**, you can get by using href.
+    ```
+    'url' : {
+            'path'  : './div[2]/div/h3/a', 
+            'attrib': 'href'}
+    ```
+    - **substring**, use regex to get part of string like numberm id. (r'\d+ = get only number)
+    ```
+    'uid'    : {
+            'path'  : './div[2]/div/div[contains(@class,"second")]/div[1]/a', 
+            'attrib': 'href', 
+            'regex' : r'\d+'}    
+    ```
+2. use // (double slashes) to match any descendant node of the current node in the html tree which matches the locator.
+    - you can use with [@id="container"] to excact match with id 
+    - or, you can use with contains to match a substring(e.g.li[contains(@id,"post")])
+    - result will return in list of possible match
+3. new_jobs needs to be specified in order to crawl each posts inside threads. 
+4. For stopping citeria/rules
+    - when only you want to crawl only current page in job file.
+    ```
+    'stop' : lambda x: True
+    ```
+    - To crawl all possible threads in subsection. (stop when no more thread to crawl). 
+<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/4.jpg">
+    ```
+    'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0 
+    this will check when there is no next link page on last page
+    ```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
