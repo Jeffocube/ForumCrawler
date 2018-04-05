@@ -38,12 +38,16 @@ Here are available options.
     
 -------------
 # job file
-job file tells Forum crawler what job/site need to crawl for each run.  
-[wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
+Job file tells Forum crawler what job/site need to crawl for each run. You can put multiple job in a single job file. [wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
     
 ```
 https://www.wilderssecurity.com/forums/mobile-device-security.141/ wildersecurity_thread
-<root URLs> <root module>
+<root URLs_1> <root module_1>
+<root URLs_2> <root module_2>
+.
+.
+.
+<root URLs_n> <root module_n>
 ```
 
 
