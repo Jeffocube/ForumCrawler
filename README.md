@@ -210,7 +210,7 @@ generalize to get all possible threads ( use '.' for relative from base path and
     ```
     'stop' :  lambda x: int(x.xpath('//*[@id="content"]/div/div/div[3]//a[contains(@class,"currentPage")]/text()')[0]) == 1,
     ```
-### Noted: Xpath and stopping condition might be different for each site. So, it needs modification accordingingly.    
+### Noted: Xpath and stopping condition might be different for each site. So, it needs modification accordingly.    
     
     
     
