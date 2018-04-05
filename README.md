@@ -166,4 +166,51 @@ generalize to get all possible threads ( use '.' for relative from base path and
             'attrib': 'href'},
             
 ```
-## Here is some tips and tricks for Xpath
+## Here is some tips and tricks for Xpath and other configurations
+
+1) There are generally 3 types of data you can get from html tags. 
+    - **plain text**, you can get by using text().
+    ```
+    'title' : {
+            'path'  : './div[2]/div/h3/a/text()', 
+            'attrib': 'text'}
+    ```
+    - **url**, you can get by using href.
+    ```
+    'url' : {
+            'path'  : './div[2]/div/h3/a', 
+            'attrib': 'href'}
+    ```
+    - **substring**, use regex to get part of string like numberm id. (r'\d+ = get only number)
+    ```
+    'uid'    : {
+            'path'  : './div[2]/div/div[contains(@class,"second")]/div[1]/a', 
+            'attrib': 'href', 
+            'regex' : r'\d+'}    
+    ```
+2. use // (double slashes) to match any descendant node of the current node in the html tree which matches the locator.
+    - you can use with [@id="container"] to excact match with id 
+    - or, you can use with contains to match a substring(e.g.li[contains(@id,"post")])
+    - result will return in list of possible match
+3. new_jobs needs to be specified in order to crawl each posts inside threads. 
+4. For stopping citeria/rules
+    - when only you want to crawl only current page in job file.
+    ```
+    'stop' : lambda x: True
+    ```
+    - To crawl all possible threads in subsection. (stop when no more thread to crawl). 
+    ```
+    <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/4.jpg">
+    'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0 
+    this will check when there is no next link page on last page
+    ```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
