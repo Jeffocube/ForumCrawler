@@ -199,8 +199,8 @@ generalize to get all possible threads ( use '.' for relative from base path and
     'stop' : lambda x: True
     ```
     - To crawl all possible threads in subsection. (stop when no more thread to crawl). 
-    ```
     <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/4.jpg">
+    ```
     'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0 
     this will check when there is no next link page on last page
     ```
