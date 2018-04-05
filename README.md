@@ -119,6 +119,9 @@ Module file are made in JSON format in order to tell crawler about rules and whi
 ```
 
 -------------
-# How to create new module file for specific site. 
+# How to create new module file with xPath for specific site. 
+
+There are at least 2 module files needed to be specified for crawl a simple site. ([thread module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_thread.py) and [post module file](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/centipede/module/wildersecurity_questions.py))
 
 
+##### 1)
