@@ -198,15 +198,17 @@ generalize to get all possible threads ( use '.' for relative from base path and
     ```
     'stop' : lambda x: True
     ```
-    - To crawl all possible threads in subsection. (stop when no more thread to crawl). 
-<img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/4.jpg">
+    - To crawl all possible threads in subsection (stop when no more thread to crawl). 
+    <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/5.jpg">
+    This stop condition will check when there is no next link page on a last page
     ```
     'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0 
-    this will check when there is no next link page on last page
+    ```
+    - To stop at certain page (stop by specific date). 
+    This stop condition will check number of each page.
     ```
     
-    
-    
+    ```
     
     
     
