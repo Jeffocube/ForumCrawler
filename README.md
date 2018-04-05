@@ -31,11 +31,11 @@ There are multiple arguments needed to specify for running a forum crawler.
     $ python crawler.py <options> -f <path to job file> 
 
 Here are available options. 
- - -debug; turn on debugging messages
+ - --debug; turn on debugging messages
  - --debug-level; detail of debugging messages [1 , 3]'
  - -c, --compress; archive the JSON result directory in compressed file
  - -f, --job; path to job file
     
 
 
-[statically typed parts]: http://mypy.readthedocs.io/en/latest/basics.html#function-signatures
+
