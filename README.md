@@ -26,16 +26,25 @@ After cloning repository, you can test running forum crawler with predefined job
 
     $ python crawler.py --debug --debug-level 2 -f wilder_job
 
-There are multiple arguments needed to specify for running a forum crawler. 
+There are multiple arguments needed to be specified for running a forum crawler. 
 
     $ python crawler.py <options> -f <path to job file> 
 
 Here are available options. 
  - --debug; turn on debugging messages
- - --debug-level; detail of debugging messages [1 , 3]'
+ - --debug-level; detail of debugging messages [1,2,3] when --debug-level 3, it returns the most detailed information.
  - -c, --compress; archive the JSON result directory in compressed file
  - -f, --job; path to job file
     
+-------------
+# job file
+job file tells Forum crawler what job/site need to crawl for each run.  
+[wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
+    
+```
+https://www.wilderssecurity.com/forums/mobile-device-security.141/ wildersecurity_thread
+<root URLs> <root module>
+```
 
 
 
