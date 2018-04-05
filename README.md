@@ -37,6 +37,18 @@ Here are available options.
  - -f, --job; path to job file
     
 -------------
+
+# How ForumCrawler work?
+When crawler starts, 
+1. Run root URL in job file with specific module file
+2. Save all elements of thread header in json format specified in module file 
+3. Adding more jobs in the job running stacks if new_jobs is specified in module file.
+4. check if stop condition is met in module file. typically, it will run till the last thread in that forum section.
+5. After getting all possible threads,  it will start crawl all posts for each threads and save in JSON format.
+
+For example,
+crawler starts >> wildersecurity_thread.py(get all possible threads) >> wildersecurity_questions.py (crawl data for each threads.)
+-------------
 # Job file
 Job file tells Forum crawler what job/site need to crawl for each run. You can put multiple job in a single job file. [wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
     
@@ -66,6 +78,36 @@ Module file are made in JSON format in order to tell crawler about rules and whi
     # 'stop' : lambda x: True,
 ```
 'stop' value is used for stopping condition. If stop == true, it will stop at current page.
+##### 2) elements - specify elements needed to save in JSON format with Xpath
+```json
+    'path': '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]',
+    'attributes': {
+        'title' : {
+            'path'  : './div[2]/div/h3/a/text()', 
+            'attrib': 'text'},
+        'url' : {
+            'path'  : './div[2]/div/h3/a', 
+            'attrib': 'href'},
+        'uid'    : {
+            'path'  : './div[2]/div/div[contains(@class,"second")]/div[1]/a', 
+            'attrib': 'href', 
+            'regex' : r'\d+'},
+        'user_fullname'  : {
+            'path'  : './div[2]/div/div[contains(@class,"second")]/div[1]/a/text()', 
+            'attrib': 'text',},
+            .
+            .
+            .
+        'last_posts_user'  : {
+            'path'  : './div[4]/dl/dt/a/text()', 
+            'attrib': 'text',},
+        'last_posts_uid'  : {
+            'path'  : './div[4]/dl/dt/a', 
+            'attrib': 'href', 
+            'regex' : r'\d+'},
+```
+'path' is an Xpath to get to specific element in html format. It  
+
 
 -------------
 # How to create new module file for specific site. 
