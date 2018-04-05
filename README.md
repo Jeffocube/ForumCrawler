@@ -48,6 +48,7 @@ When crawler starts,
 
 For example,
 crawler starts >> wildersecurity_thread.py(get all possible threads) >> wildersecurity_questions.py (crawl data for each threads.)
+
 -------------
 # Job file
 Job file tells Forum crawler what job/site need to crawl for each run. You can put multiple job in a single job file. [wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
@@ -78,7 +79,7 @@ Module file are made in JSON format in order to tell crawler about rules and whi
     # 'stop' : lambda x: True,
 ```
 'stop' value is used for stopping condition. If stop == true, it will stop at current page.
-##### 2) elements - specify elements needed to save in JSON format with Xpath
+##### 2) elements - specify elements needed to save in JSON format with Xpath.
 ```json
     'path': '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]',
     'attributes': {
@@ -106,8 +107,16 @@ Module file are made in JSON format in order to tell crawler about rules and whi
             'attrib': 'href', 
             'regex' : r'\d+'},
 ```
-'path' is an Xpath to get to specific element in html format. It  
+'path' uses Xpath to get to specific element in html format. It consists of base path and extend path in 'attributes'. 
+'attrib' uses to speficify type of input(plain text, href). Regular expression is used to help extracting part of string.
+##### this 'attributes' in elements will later be save in JSON format as crawled data. 
 
+##### 3) new_jobs - adding more jobs to running crawler stacks. Typically, it will point to another module file for each thread module file. 
+```json
+    'path' : '//*[contains(@id,"thread")]/div[2]/div/h3/a',
+    'module': 'wildersecurity_questions',
+    'prefix': 'http://www.wilderssecurity.com/',
+```
 
 -------------
 # How to create new module file for specific site. 
