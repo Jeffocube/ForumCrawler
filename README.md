@@ -37,7 +37,7 @@ Here are available options.
  - -f, --job; path to job file
     
 -------------
-# job file
+# Job file
 Job file tells Forum crawler what job/site need to crawl for each run. You can put multiple job in a single job file. [wilder_job](https://github.com/JakapunTachaiya/ForumCrawler/blob/master/wilder_job) is template job file for http://www.wilderssecurity.com. A root URL and module file for each site should be speficied here. 
     
 ```
@@ -49,6 +49,24 @@ https://www.wilderssecurity.com/forums/mobile-device-security.141/ wildersecurit
 .
 <root URLs_n> <root module_n>
 ```
+-------------
+# Module file
+Module file are made in JSON format in order to tell crawler about rules and which content data should be creawled in each site. It consisted of 3 parts, http_rules, elements and new_jobs. Module file uses Xpath to get specific elements in from html format and use regular expression for extrating certain value. 
 
+##### 1) http_rules - specify POST/GET html page & stop condition.
+```json
+ 'method'  : 'GET',
+    'page' : {
+        'key'   : 'page',
+        'value' : 1,
+    },
+    
+    # 'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0,
+    'stop' :  lambda x: int(x.xpath('//*[@id="content"]/div/div/div[3]//a[contains(@class,"currentPage")]/text()')[0]) == 1,
+    # 'stop' : lambda x: True,
+```
+
+-------------
+# How to create new module file for specific site. 
 
 
