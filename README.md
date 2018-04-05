@@ -125,9 +125,9 @@ There are at least 2 module files needed to be specified to crawl a simple site.
 This example is for crawling in https://www.wilderssecurity.com/forums/mobile-device-security.141/. (wilderssecurity in mobile-device-security.141 section)
 
 <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/1.jpg" width="500" height="600">
-##### 1) use browser (recommmended chrome) to get an Xpath of element. Right click on element and inspect. It will show html tag for that element on the right side.
+#### 1) use browser (recommmended chrome) to get an Xpath of element. Right click on element and inspect. It will show html tag for that element on the right side.
 <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/2.jpg">
-##### 2) Then click on copy Xpath for specific element. You will get that element Xpath.
+#### 2) Then click on copy Xpath for specific element. You will get that element Xpath.
 <img src="https://github.com/JakapunTachaiya/ForumCrawler/blob/master/readme_image/3.jpg">
 
 Noted: Some results of copy Xpath is not shown to top level of DOM. You have to trace back to top level for prevent ambiguity when referring. For example,
