@@ -6,7 +6,7 @@ Forumcrawler is a web crawler based on Centipede library. It was made by UCR stu
 # Requirements
 
 You need Python 2.7 to ForumCrawler. Also, here are additional required python libraries. 
- - Request (please use version under 2.10, recommend requests 2.9.1)
+ - Requests (please use version under 2.10, recommend requests 2.9.1)
  - Awesome-slugify
  - Selenium
  - Centipede
