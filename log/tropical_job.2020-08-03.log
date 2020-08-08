@@ -1,0 +1,96 @@
+2020-08-03 15:29:48  Centipede starts!
+2020-08-03 15:29:48  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 15:29:48  Finding next job.
+2020-08-03 15:29:48  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 15:29:48  Job started.
+2020-08-03 15:29:48  http://tropicalfruitforum.com/index.php/?page=1 (0.203544s)
+2020-08-03 15:29:48  13 elements are found.
+2020-08-03 15:29:54  Job done, dumping the data.
+2020-08-03 15:29:54  13 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 15:29:54  Job closed.
+2020-08-03 15:29:54  Finding next job.
+2020-08-03 15:29:54  No more jobs.
+2020-08-03 15:32:13  Centipede starts!
+2020-08-03 15:32:13  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 15:32:13  Finding next job.
+2020-08-03 15:32:13  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 15:32:13  Job started.
+2020-08-03 15:32:13  http://tropicalfruitforum.com/index.php/?page=1 (0.135504s)
+2020-08-03 15:32:13  4 elements are found.
+2020-08-03 15:32:19  Job done, dumping the data.
+2020-08-03 15:32:19  4 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 15:32:19  Job closed.
+2020-08-03 15:32:19  Finding next job.
+2020-08-03 15:32:19  No more jobs.
+2020-08-03 15:33:06  Centipede starts!
+2020-08-03 15:33:06  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 15:33:06  Finding next job.
+2020-08-03 15:33:18  Centipede starts!
+2020-08-03 15:33:18  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 15:33:18  Finding next job.
+2020-08-03 15:33:18  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 15:33:18  Job started.
+2020-08-03 15:33:18  http://tropicalfruitforum.com/index.php/?page=1 (0.151341s)
+2020-08-03 15:33:18  4 elements are found.
+2020-08-03 15:33:24  Job done, dumping the data.
+2020-08-03 15:33:24  4 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 15:33:24  Job closed.
+2020-08-03 15:33:24  Finding next job.
+2020-08-03 15:33:24  No more jobs.
+2020-08-03 15:39:27  Centipede starts!
+2020-08-03 15:39:27  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 15:39:27  Finding next job.
+2020-08-03 15:39:27  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 15:39:27  Job started.
+2020-08-03 15:39:27  http://tropicalfruitforum.com/index.php/?page=1 (0.171173s)
+2020-08-03 15:39:27  4 elements are found.
+2020-08-03 15:39:33  Job done, dumping the data.
+2020-08-03 15:39:33  4 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 15:39:33  Job closed.
+2020-08-03 15:39:33  Finding next job.
+2020-08-03 15:39:33  No more jobs.
+2020-08-03 16:05:07  Centipede starts!
+2020-08-03 16:05:07  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 16:05:07  Finding next job.
+2020-08-03 16:05:07  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 16:05:07  Job started.
+2020-08-03 16:05:07  http://tropicalfruitforum.com/index.php/?page=1 (0.202268s)
+2020-08-03 16:05:07  4 elements are found.
+2020-08-03 16:05:07  Adding new jobs:
+2020-08-03 16:05:07  0 new jobs are added.
+2020-08-03 16:05:13  Job done, dumping the data.
+2020-08-03 16:05:13  4 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 16:05:13  Job closed.
+2020-08-03 16:05:13  Finding next job.
+2020-08-03 16:05:13  No more jobs.
+2020-08-03 16:12:12  Centipede starts!
+2020-08-03 16:12:12  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 16:12:12  Finding next job.
+2020-08-03 16:12:12  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 16:12:12  Job started.
+2020-08-03 16:12:12  http://tropicalfruitforum.com/index.php/?page=1 (0.146835s)
+2020-08-03 16:12:12  4 elements are found.
+2020-08-03 16:12:32  Centipede starts!
+2020-08-03 16:12:32  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 16:12:32  Finding next job.
+2020-08-03 16:12:32  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 16:12:32  Job started.
+2020-08-03 16:12:33  http://tropicalfruitforum.com/index.php/?page=1 (0.117204s)
+2020-08-03 16:12:33  4 elements are found.
+2020-08-03 16:12:39  Job done, dumping the data.
+2020-08-03 16:12:39  4 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 16:12:39  Job closed.
+2020-08-03 16:12:39  Finding next job.
+2020-08-03 16:12:39  No more jobs.
+2020-08-03 16:19:19  Centipede starts!
+2020-08-03 16:19:19  Job filename: /home/jeff/ForumCrawler/tropical_job.2020-08-03.jobs
+2020-08-03 16:19:19  Finding next job.
+2020-08-03 16:19:19  module: tropical_discussion, URL: http://tropicalfruitforum.com/index.php/
+2020-08-03 16:19:19  Job started.
+2020-08-03 16:19:20  http://tropicalfruitforum.com/index.php/?page=1 (0.253028s)
+2020-08-03 16:19:20  13 elements are found.
+2020-08-03 16:19:26  Job done, dumping the data.
+2020-08-03 16:19:26  13 records are dumped to '/home/jeff/ForumCrawler/tmp/tropical_job.2020-08-03/http_tropicalfruitforum.com_index.php.json'
+2020-08-03 16:19:26  Job closed.
+2020-08-03 16:19:26  Finding next job.
+2020-08-03 16:19:26  No more jobs.

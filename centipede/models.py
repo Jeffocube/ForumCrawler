@@ -18,11 +18,12 @@ import selenium
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-
+topic = False
+incre = .25
 class Centipede:
 
     def __init__(self, fname, **kwargs):
-
+        #These two are globals being used as a quick fix for the tropical website.
         self._debug = False
         self._debug_level = 1
 
@@ -117,12 +118,13 @@ class Centipede:
               params=params,
               headers=headers
             )
+        #THE ISSUE LIES HERE
         return r.prepare()
 
     def send_request(self, method, url, params, headers):
         attempts = 0
         incr_delays = [1, 5, 10, 30, 60] # in minutes
-
+        #THE ISSUE LIES HERE 2
         while True:
             try:
                 response = self.session.send(
@@ -134,8 +136,14 @@ class Centipede:
                              ),
                              timeout = 30
                            )
+                if 'topic' in response.url:
+                    global topic
+                    topic = True
+                response.url = response.url.rpartition(".")[0].rpartition(".")[0] + str(params['page']).lstrip("0")
+                if params['page'] != 0:
+                    response.url = response.url + '0'
                 self.last_request = {'url': response.url, 'timestamp': time.time()}
-
+                self.current_job.url = response.url
                 self._log(2,
                   '{url} ({time}s)'.format(
                     url  = response.url,
@@ -167,7 +175,6 @@ class Centipede:
                     # TODO: Handle complete abort
             else:
                 break
-
         return response.url, response.content
 
     ##
@@ -190,7 +197,7 @@ class Centipede:
                 else:
                     url, module_name = splits[-2:]
                     # print module_name, url
-
+                    #THIS URL IS NOT BEING UPDATED
                     j = CentipedeJob()
                     j.url = url
                     j.module = self.load_module(module_name)
@@ -251,7 +258,7 @@ class Centipede:
                                  params,
                                  headers
                                )
-
+            #THE ISSUE LIES HERE AS WELL
             root = html.fromstring(html_source)
             TempDataList = self.get_data(root)
             # print("printJSON ", TempDataList[len(TempDataList)-1])
@@ -342,7 +349,6 @@ class Centipede:
                 for e in root.xpath(nj['path']):
                     url_prefix = nj.get('prefix', self.last_request['url'])
                     url = urlparse.urljoin(url_prefix, e.attrib['href'])
-
                     job = '{url}{delimiter}{module}\n'.format(
                             module    = nj['module'],
                             delimiter = '\t',
@@ -377,7 +383,6 @@ class Centipede:
         self._log(3, 'Extracting data from elements:')
 
         module = self.current_job.module
-
         data = list()
         for e in elements:
             d = {}
@@ -454,7 +459,6 @@ class Centipede:
                             .module \
                             .http_rules \
                             .get('stop_date')
-
             # print("stop_date",condition2(root))
 
             if isinstance(condition, dict):
@@ -484,13 +488,12 @@ class Centipede_Selenium(Centipede):
             try:
                 self.webdrive.get(
                   self.prepare_request(
-                    'GET', 
-                    url, 
-                    params, 
+                    'GET',
+                    url,
+                    params,
                     headers
                   ).url
                 )
-
                 wait = ui.WebDriverWait(self.webdrive, 300)
                 e = wait.until(
                     EC.presence_of_element_located(
@@ -498,13 +501,14 @@ class Centipede_Selenium(Centipede):
                          self.current_job.module.http_rules['element'])
                          )
                     )
-                
+
+                #print(self.webdrive.current_url)
                 self.last_request = {'url': self.webdrive.current_url, 'timestamp': time.time()}
 
             except selenium.common.exceptions.TimeoutException as e:
                 print 'aaa'
                 minutes = incr_delays[attempts]
-                
+
                 if attempts < 5:
                     self._log(0,
                       '[{errtype}] {msg}'.format(
@@ -576,7 +580,6 @@ class Centipede_Selenium(Centipede):
                     # TODO: Handle complete abort
             else:
                 break
-
         return response.url, response.content
 
     def send_request(self, method, url, params, headers):
@@ -588,19 +591,27 @@ class Centipede_Selenium(Centipede):
 
 class Paging(object):
 
-    def __init__(self, key, start=1, increment=1):
+    def __init__(self, key, start=0, increment=.3):
         self.key = key
-        self.current_page = start
-        self.increment = increment
+        self.current_page = 0.0
+        self.increment = .3
 
     def page(self):
         return self.current_page
 
     def next_page(self):
-        self.current_page += self.increment
+        if topic:
+            self.current_page += incre
+        else:
+            self.current_page += self.increment
+
+        if self.current_page >= 1:
+            self.current_page = self.current_page / 10
+            self.increment = self.increment / 10
+            global incre
+            incre = incre / 10
         return self.page()
 
     def prev_page(self):
         self.current_page -= self.increment
         return self.page()
-

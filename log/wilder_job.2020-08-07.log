@@ -1,0 +1,21 @@
+2020-08-06 17:51:36  Centipede starts!
+2020-08-06 17:51:36  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-07.jobs
+2020-08-06 17:51:36  Finding next job.
+2020-08-06 17:51:36  module: wildersecurity_thread, URL: https://www.wilderssecurity.com/forums/mobile-device-security.141/
+2020-08-06 17:51:36  Job started.
+2020-08-06 17:51:37  https://www.wilderssecurity.com/forums/mobile-device-security.141/?page=1 (0.297313s)
+2020-08-06 17:51:37  25 elements are found.
+2020-08-06 17:51:37  Adding new jobs:
+2020-08-06 17:51:37  25 new jobs are added.
+2020-08-06 17:51:43  https://www.wilderssecurity.com/forums/mobile-device-security.141/page-2?page=2 (0.105951s)
+2020-08-06 17:51:43  25 elements are found.
+2020-08-06 17:51:43  Adding new jobs:
+2020-08-06 17:51:43  25 new jobs are added.
+2020-08-06 17:51:49  Job done, dumping the data.
+2020-08-06 17:51:49  50 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-07/https_www.wilderssecurity.com_forums_mobile-device-security.141.json'
+2020-08-06 17:51:49  Job closed.
+2020-08-06 17:51:49  Finding next job.
+2020-08-06 17:51:49  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/android-phones-at-risk-of-bluerepli-bluetooth-attack.431373/
+2020-08-06 17:51:49  Job started.
+2020-08-06 17:51:49  https://www.wilderssecurity.com/threads/android-phones-at-risk-of-bluerepli-bluetooth-attack.431373/?page=1 (0.099474s)
+2020-08-06 17:51:49  1 elements are found.
