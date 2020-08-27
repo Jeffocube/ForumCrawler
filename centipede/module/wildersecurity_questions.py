@@ -14,7 +14,6 @@ elements = {
     'path': '//*[@id="content"]/div/div/form[contains(@method,"post")]/ol/li[contains(@id,"post")]',
     'attributes': {
         'pid'  : {
-            #'path'  : '/',
             'attrib': 'id',
             'regex' : r'\d+'},
         'uid'  : {

@@ -6,7 +6,12 @@ http_rules = {
         'value' : 1,
     },
     # 'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0,
-    'stop' :  lambda x: int(x.xpath('//*[@id="main_content_section"]/div[2]/div/strong/text()')[0]) >= int(x.xpath('count(//*[@id="main_content_section"]/div[2]/div/a)')),
+    'stop' :  lambda x: (True if int(x.xpath('count(/html/body/div[5]/div/div/div/div[2]/div/a)')) == 0
+    else (True if int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/strong/text()')[0]) == 2
+        and 'All' in x.xpath('/html/body/div[5]/div/div/div/div[2]/div/a[last()]/text()')[0]
+    else(False if 'All' in x.xpath('/html/body/div[5]/div/div/div/div[2]/div/a[last()]/text()')[0]
+        and int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/strong/text()')[0]) == 1
+    else int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/strong/text()')[0]) > int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/a[last()]/text()')[0])))),
     # 'stop' : lambda x: True,
 }
 elements = {
@@ -35,9 +40,9 @@ elements = {
     }
 }
 
-#new_jobs = [{
-#    #'path' : '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]/div[2]/div/h3/a',
-#    'path' : '//*[contains(@id,"msg")]/a',
-#    'module': 'tropical_user',
-#    'prefix': 'http://www.tropicalfruitforum.com/',
-#}]
+new_jobs = [{
+    #'path' : '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]/div[2]/div/h3/a',
+    'path' : '//*[contains(@id,"msg")]/a',
+    'module': 'tropical_user',
+    'prefix': 'http://www.tropicalfruitforum.com/',
+}]

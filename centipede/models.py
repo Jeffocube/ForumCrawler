@@ -18,22 +18,19 @@ import selenium
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-topic = False
-incre = .25
+precision = 0
 class Centipede:
 
     def __init__(self, fname, **kwargs):
         #These two are globals being used as a quick fix for the tropical website.
         self._debug = False
         self._debug_level = 1
-
+        self.topic = False
         self._log_level = 2
         self._logfile = None
         self._logs = list()
         self._logger = None
-
         self._dir = 'data'
-
         self._delay = 6
 
         # Define the empty value for all column
@@ -118,13 +115,11 @@ class Centipede:
               params=params,
               headers=headers
             )
-        #THE ISSUE LIES HERE
         return r.prepare()
 
     def send_request(self, method, url, params, headers):
         attempts = 0
         incr_delays = [1, 5, 10, 30, 60] # in minutes
-        #THE ISSUE LIES HERE 2
         while True:
             try:
                 response = self.session.send(
@@ -136,14 +131,7 @@ class Centipede:
                              ),
                              timeout = 30
                            )
-                if 'topic' in response.url:
-                    global topic
-                    topic = True
-                response.url = response.url.rpartition(".")[0].rpartition(".")[0] + str(params['page']).lstrip("0")
-                if params['page'] != 0:
-                    response.url = response.url + '0'
                 self.last_request = {'url': response.url, 'timestamp': time.time()}
-                self.current_job.url = response.url
                 self._log(2,
                   '{url} ({time}s)'.format(
                     url  = response.url,
@@ -202,7 +190,6 @@ class Centipede:
                     j.url = url
                     j.module = self.load_module(module_name)
                     self.current_job = j
-
                     # print j.url, j.module
 
                     self._log(1,
@@ -228,6 +215,8 @@ class Centipede:
 
     def do_job(self):
         self._log(1, 'Job started.')
+        global precision
+        precision = 0
 
         http_rules = self.current_job.module.http_rules
         part = 0
@@ -246,19 +235,33 @@ class Centipede:
             paging = Paging(
                       paging_rules.get('key', 'page'),
                       paging_rules.get('value', 1),
-                      paging_rules.get('increment', 1)
+                      paging_rules.get('increment', 1),
                     )
             params[paging.key] = paging.page()
 
         data = list()
         while (not self.is_job_done(root)):
+            #IF FORMATTING THE URL, PLEASE PUT YOUR MODIFICATIONS HERE AND BEFORE THE SEND REQUEST
+            tempurl = self.current_job.url
+            if 'topic' in tempurl:
+                self.topic = True
+            tempurl = tempurl.rpartition(".")[0] + str(params['page']).lstrip("0").ljust(3 + precision, '0')
+            if params['page'] != 0 and not self.topic:
+                tempurl = self.current_job.url + str(params['page']).lstrip("0").ljust(3 + precision, '0')
+            if not "?page" in tempurl:
+                tempurl = tempurl.rpartition(".")[0] + ".php"
+            print(self.current_job.url)
+            if "PHPSESSID" in self.current_job.url:
+                tempurl = self.current_job.url.rpartition(".")[0] + str(params['page']).lstrip("0").ljust(3 + precision, '0')
+                #print(precision)
+            #print(tempurl)
+            #END OF THE URL FORMATTING PORTION
             url, html_source = self.send_request(
                                  http_rules.get('method', 'GET'),
-                                 self.current_job.url,
+                                 tempurl,
                                  params,
                                  headers
                                )
-            #THE ISSUE LIES HERE AS WELL
             root = html.fromstring(html_source)
             TempDataList = self.get_data(root)
             # print("printJSON ", TempDataList[len(TempDataList)-1])
@@ -276,7 +279,7 @@ class Centipede:
             self.dump_new_jobs(root)
 
             # If page is defined, increase one. Continue until stop condition is matched
-            if paging: params[paging.key] = paging.next_page()
+            if paging: params[paging.key] = paging.next_page(self.topic)
 
             self.delay()
 
@@ -324,7 +327,6 @@ class Centipede:
 
     def dump_data(self, data, part=False):
         name = slugify_filename(self.current_job.url)
-
         if part:
             filename = '{name}.part{part}.json'.format(
                          name = name,
@@ -502,7 +504,6 @@ class Centipede_Selenium(Centipede):
                          )
                     )
 
-                #print(self.webdrive.current_url)
                 self.last_request = {'url': self.webdrive.current_url, 'timestamp': time.time()}
 
             except selenium.common.exceptions.TimeoutException as e:
@@ -541,7 +542,7 @@ class Centipede_Selenium(Centipede):
                 response = self.session.send(
                              self.prepare_request(
                                method,
-                               url,
+                               tempurl,
                                params,
                                headers
                              ),
@@ -590,28 +591,26 @@ class Centipede_Selenium(Centipede):
         return self.send_request_by_selenium(url, params, headers)
 
 class Paging(object):
-
     def __init__(self, key, start=0, increment=.3):
         self.key = key
         self.current_page = 0.0
         self.increment = .3
-
+        self.incre = .25
     def page(self):
         return self.current_page
 
-    def next_page(self):
+    def next_page(self, topic):
         if topic:
-            self.current_page += incre
+            self.current_page += self.incre
         else:
             self.current_page += self.increment
-
         if self.current_page >= 1:
+            global precision
+            precision = precision + 1
             self.current_page = self.current_page / 10
             self.increment = self.increment / 10
-            global incre
-            incre = incre / 10
+            self.incre = self.incre / 10
         return self.page()
-
     def prev_page(self):
         self.current_page -= self.increment
         return self.page()

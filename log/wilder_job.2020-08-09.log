@@ -1,0 +1,541 @@
+2020-08-08 19:32:35  Centipede starts!
+2020-08-08 19:32:35  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-08 19:32:35  Finding next job.
+2020-08-08 19:32:35  module: wildersecurity_thread, URL: https://www.wilderssecurity.com/forums/mobile-device-security.141/
+2020-08-08 19:32:35  Job started.
+2020-08-08 19:32:35  https://www.wilderssecurity.com/forums/mobile-device-security.141/?page=1 (0.33504s)
+2020-08-08 19:32:35  25 elements are found.
+2020-08-08 19:32:35  Adding new jobs:
+2020-08-08 19:32:35  25 new jobs are added.
+2020-08-08 19:32:41  https://www.wilderssecurity.com/forums/mobile-device-security.141/page-2?page=2 (0.099889s)
+2020-08-08 19:32:41  25 elements are found.
+2020-08-08 19:32:41  Adding new jobs:
+2020-08-08 19:32:41  25 new jobs are added.
+2020-08-08 19:32:47  Job done, dumping the data.
+2020-08-08 19:32:47  50 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_forums_mobile-device-security.141.json'
+2020-08-08 19:32:47  Job closed.
+2020-08-08 19:32:47  Finding next job.
+2020-08-08 19:32:47  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/researchers-warn-of-an-achilles-heel-security-flaw-for-android-phones.431389/
+2020-08-08 19:32:47  Job started.
+2020-08-08 19:32:48  https://www.wilderssecurity.com/threads/researchers-warn-of-an-achilles-heel-security-flaw-for-android-phones.431389/?page=1 (0.118875s)
+2020-08-08 19:32:48  6 elements are found.
+2020-08-08 19:32:54  Job done, dumping the data.
+2020-08-08 19:32:54  6 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_researchers-warn-of-an-achilles-heel-security-flaw-for-android-phones.431389.json'
+2020-08-08 19:32:54  Job closed.
+2020-08-08 19:32:54  Finding next job.
+2020-08-08 19:32:54  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/can-i-know-the-best-way-to-find-out-search-malware-spyware-and-others-on-android.431419/
+2020-08-08 19:32:54  Job started.
+2020-08-08 19:32:54  https://www.wilderssecurity.com/threads/can-i-know-the-best-way-to-find-out-search-malware-spyware-and-others-on-android.431419/?page=1 (0.12922s)
+2020-08-08 19:32:54  6 elements are found.
+2020-08-08 19:33:00  Job done, dumping the data.
+2020-08-08 19:33:00  6 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_can-i-know-the-best-way-to-find-out-search-malware-spyware-and-others-on-android.431419.json'
+2020-08-08 19:33:00  Job closed.
+2020-08-08 19:33:00  Finding next job.
+2020-08-08 19:33:00  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/kernel-vulnerabilities-in-android-devices-using-qualcomm-chips-explored.427968/
+2020-08-08 19:33:00  Job started.
+2020-08-08 19:33:00  https://www.wilderssecurity.com/threads/kernel-vulnerabilities-in-android-devices-using-qualcomm-chips-explored.427968/?page=1 (0.114831s)
+2020-08-08 19:33:00  2 elements are found.
+2020-08-08 19:33:06  Job done, dumping the data.
+2020-08-08 19:33:06  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_kernel-vulnerabilities-in-android-devices-using-qualcomm-chips-explored.427968.json'
+2020-08-08 19:33:06  Job closed.
+2020-08-08 19:33:06  Finding next job.
+2020-08-08 19:33:06  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/do-apps-need-all-the-permissions.421685/
+2020-08-08 19:33:06  Job started.
+2020-08-08 19:33:06  https://www.wilderssecurity.com/threads/do-apps-need-all-the-permissions.421685/?page=1 (0.109869s)
+2020-08-08 19:33:06  4 elements are found.
+2020-08-08 19:33:12  Job done, dumping the data.
+2020-08-08 19:33:12  4 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_do-apps-need-all-the-permissions.421685.json'
+2020-08-08 19:33:12  Job closed.
+2020-08-08 19:33:12  Finding next job.
+2020-08-08 19:33:12  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/android-phones-at-risk-of-bluerepli-bluetooth-attack.431373/
+2020-08-08 19:33:12  Job started.
+2020-08-08 19:33:12  https://www.wilderssecurity.com/threads/android-phones-at-risk-of-bluerepli-bluetooth-attack.431373/?page=1 (0.105349s)
+2020-08-08 19:33:12  2 elements are found.
+2020-08-08 19:33:18  Job done, dumping the data.
+2020-08-08 19:33:18  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_android-phones-at-risk-of-bluerepli-bluetooth-attack.431373.json'
+2020-08-08 19:33:18  Job closed.
+2020-08-08 19:33:18  Finding next job.
+2020-08-08 19:33:18  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/twitter-says-android-security-bug-gave-access-to-direct-messages.431350/
+2020-08-08 19:33:18  Job started.
+2020-08-08 19:33:19  https://www.wilderssecurity.com/threads/twitter-says-android-security-bug-gave-access-to-direct-messages.431350/?page=1 (0.099327s)
+2020-08-08 19:33:19  1 elements are found.
+2020-08-08 19:33:25  Job done, dumping the data.
+2020-08-08 19:33:25  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_twitter-says-android-security-bug-gave-access-to-direct-messages.431350.json'
+2020-08-08 19:33:25  Job closed.
+2020-08-08 19:33:25  Finding next job.
+2020-08-08 19:33:25  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/new-unpatchable-exploit-allegedly-found-on-apples-secure-enclave-chip-heres-what-it-could-mean.431259/
+2020-08-08 19:33:25  Job started.
+2020-08-08 19:33:25  https://www.wilderssecurity.com/threads/new-unpatchable-exploit-allegedly-found-on-apples-secure-enclave-chip-heres-what-it-could-mean.431259/?page=1 (0.120611s)
+2020-08-08 19:33:25  2 elements are found.
+2020-08-08 19:33:31  Job done, dumping the data.
+2020-08-08 19:33:31  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_new-unpatchable-exploit-allegedly-found-on-apples-secure-enclave-chip-heres-what-it-could-mean.431259.json'
+2020-08-08 19:33:31  Job closed.
+2020-08-08 19:33:31  Finding next job.
+2020-08-08 19:33:31  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/pwn2own-tokyo-2020-zdi-announces-hacking-competition.431120/
+2020-08-08 19:33:31  Job started.
+2020-08-08 19:33:31  https://www.wilderssecurity.com/threads/pwn2own-tokyo-2020-zdi-announces-hacking-competition.431120/?page=1 (0.109164s)
+2020-08-08 19:33:31  2 elements are found.
+2020-08-08 19:33:37  Job done, dumping the data.
+2020-08-08 19:33:37  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_pwn2own-tokyo-2020-zdi-announces-hacking-competition.431120.json'
+2020-08-08 19:33:37  Job closed.
+2020-08-08 19:33:37  Finding next job.
+2020-08-08 19:33:37  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/lokibot-redux-attacks-massive-list-of-common-android-apps.430735/
+2020-08-08 19:33:37  Job started.
+2020-08-08 19:33:37  https://www.wilderssecurity.com/threads/lokibot-redux-attacks-massive-list-of-common-android-apps.430735/?page=1 (0.108359s)
+2020-08-08 19:33:37  3 elements are found.
+2020-08-08 19:33:43  Job done, dumping the data.
+2020-08-08 19:33:43  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_lokibot-redux-attacks-massive-list-of-common-android-apps.430735.json'
+2020-08-08 19:33:43  Job closed.
+2020-08-08 19:33:43  Finding next job.
+2020-08-08 19:33:43  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/ee-launches-set-up-safe-service-for-parents-to-protect-children-online.431142/
+2020-08-08 19:33:43  Job started.
+2020-08-08 19:33:43  https://www.wilderssecurity.com/threads/ee-launches-set-up-safe-service-for-parents-to-protect-children-online.431142/?page=1 (0.10228s)
+2020-08-08 19:33:43  1 elements are found.
+2020-08-08 19:33:49  Job done, dumping the data.
+2020-08-08 19:33:49  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_ee-launches-set-up-safe-service-for-parents-to-protect-children-online.431142.json'
+2020-08-08 19:33:49  Job closed.
+2020-08-08 19:33:49  Finding next job.
+2020-08-08 19:33:49  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/cerberus-android-malware-source-code-offered-for-sale-for-100-000.431064/
+2020-08-08 19:33:49  Job started.
+2020-08-08 19:33:49  https://www.wilderssecurity.com/threads/cerberus-android-malware-source-code-offered-for-sale-for-100-000.431064/?page=1 (0.100361s)
+2020-08-08 19:33:49  1 elements are found.
+2020-08-08 19:33:55  Job done, dumping the data.
+2020-08-08 19:33:55  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_cerberus-android-malware-source-code-offered-for-sale-for-100-000.431064.json'
+2020-08-08 19:33:55  Job closed.
+2020-08-08 19:33:55  Finding next job.
+2020-08-08 19:33:55  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/lineageos-17-available.427559/
+2020-08-08 19:33:55  Job started.
+2020-08-08 19:33:56  https://www.wilderssecurity.com/threads/lineageos-17-available.427559/?page=1 (0.108657s)
+2020-08-08 19:33:56  4 elements are found.
+2020-08-08 19:34:02  Job done, dumping the data.
+2020-08-08 19:34:02  4 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_lineageos-17-available.427559.json'
+2020-08-08 19:34:02  Job closed.
+2020-08-08 19:34:02  Finding next job.
+2020-08-08 19:34:02  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/fraudulent-photo-app-operation-detected-on-google-store.430984/
+2020-08-08 19:34:02  Job started.
+2020-08-08 19:34:02  https://www.wilderssecurity.com/threads/fraudulent-photo-app-operation-detected-on-google-store.430984/?page=1 (0.1109s)
+2020-08-08 19:34:02  1 elements are found.
+2020-08-08 19:34:08  Job done, dumping the data.
+2020-08-08 19:34:08  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_fraudulent-photo-app-operation-detected-on-google-store.430984.json'
+2020-08-08 19:34:08  Job closed.
+2020-08-08 19:34:08  Finding next job.
+2020-08-08 19:34:08  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/verizon-rolls-out-call-filter-a-free-anti-robocall-app-for-its-android-and-ios-users.415067/
+2020-08-08 19:34:08  Job started.
+2020-08-08 19:34:08  https://www.wilderssecurity.com/threads/verizon-rolls-out-call-filter-a-free-anti-robocall-app-for-its-android-and-ios-users.415067/?page=1 (0.113371s)
+2020-08-08 19:34:08  4 elements are found.
+2020-08-08 19:34:14  Job done, dumping the data.
+2020-08-08 19:34:14  4 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_verizon-rolls-out-call-filter-a-free-anti-robocall-app-for-its-android-and-ios-users.415067.json'
+2020-08-08 19:34:14  Job closed.
+2020-08-08 19:34:14  Finding next job.
+2020-08-08 19:34:14  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/apple-is-giving-jailbroken-iphones-to-hackers-to-tighten-ios-security.419502/
+2020-08-08 19:34:14  Job started.
+2020-08-08 19:34:14  https://www.wilderssecurity.com/threads/apple-is-giving-jailbroken-iphones-to-hackers-to-tighten-ios-security.419502/?page=1 (0.115756s)
+2020-08-08 19:34:14  3 elements are found.
+2020-08-08 19:34:20  Job done, dumping the data.
+2020-08-08 19:34:20  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_apple-is-giving-jailbroken-iphones-to-hackers-to-tighten-ios-security.419502.json'
+2020-08-08 19:34:20  Job closed.
+2020-08-08 19:34:20  Finding next job.
+2020-08-08 19:34:20  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/camera-privacy-bug-found-in-firefox-android-in-2019-hasnt-been-fixed-yet.430912/
+2020-08-08 19:34:20  Job started.
+2020-08-08 19:34:20  https://www.wilderssecurity.com/threads/camera-privacy-bug-found-in-firefox-android-in-2019-hasnt-been-fixed-yet.430912/?page=1 (0.102201s)
+2020-08-08 19:34:20  1 elements are found.
+2020-08-08 19:34:26  Job done, dumping the data.
+2020-08-08 19:34:26  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_camera-privacy-bug-found-in-firefox-android-in-2019-hasnt-been-fixed-yet.430912.json'
+2020-08-08 19:34:26  Job closed.
+2020-08-08 19:34:26  Finding next job.
+2020-08-08 19:34:26  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/apple-and-goldman-sachs-partnering-on-a-credit-card-for-the-iphone-wsj-says.413697/
+2020-08-08 19:34:26  Job started.
+2020-08-08 19:34:27  https://www.wilderssecurity.com/threads/apple-and-goldman-sachs-partnering-on-a-credit-card-for-the-iphone-wsj-says.413697/?page=1 (0.16162s)
+2020-08-08 19:34:27  25 elements are found.
+2020-08-08 19:34:33  https://www.wilderssecurity.com/threads/apple-and-goldman-sachs-partnering-on-a-credit-card-for-the-iphone-wsj-says.413697/page-2?page=2 (0.123366s)
+2020-08-08 19:34:33  8 elements are found.
+2020-08-08 19:34:39  Job done, dumping the data.
+2020-08-08 19:34:39  33 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_apple-and-goldman-sachs-partnering-on-a-credit-card-for-the-iphone-wsj-says.413697.json'
+2020-08-08 19:34:39  Job closed.
+2020-08-08 19:34:39  Finding next job.
+2020-08-08 19:34:39  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-08 19:34:39  Job started.
+2020-08-08 19:34:39  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/?page=1 (0.154583s)
+2020-08-08 19:34:39  25 elements are found.
+2020-08-08 19:34:45  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/page-2?page=2 (0.112895s)
+2020-08-08 19:34:45  5 elements are found.
+2020-08-08 19:34:51  Job done, dumping the data.
+2020-08-08 19:34:51  30 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-08 19:34:51  Job closed.
+2020-08-08 19:34:51  Finding next job.
+2020-08-08 19:34:51  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/is-there-a-way-to-remove-every-folders-and-data-left-uninstalling-an-app.430634/
+2020-08-08 19:34:51  Job started.
+2020-08-08 19:34:52  https://www.wilderssecurity.com/threads/is-there-a-way-to-remove-every-folders-and-data-left-uninstalling-an-app.430634/?page=1 (0.115262s)
+2020-08-08 19:34:52  10 elements are found.
+2020-08-08 19:34:58  Job done, dumping the data.
+2020-08-08 19:34:58  10 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_is-there-a-way-to-remove-every-folders-and-data-left-uninstalling-an-app.430634.json'
+2020-08-08 19:34:58  Job closed.
+2020-08-08 19:34:58  Finding next job.
+2020-08-08 19:34:58  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/whatsapp-vulnerability-allowed-secretive-installation-of-spyware.416619/
+2020-08-08 19:34:58  Job started.
+2020-08-08 19:34:58  https://www.wilderssecurity.com/threads/whatsapp-vulnerability-allowed-secretive-installation-of-spyware.416619/?page=1 (0.178519s)
+2020-08-08 19:34:58  25 elements are found.
+2020-08-08 19:35:04  https://www.wilderssecurity.com/threads/whatsapp-vulnerability-allowed-secretive-installation-of-spyware.416619/page-2?page=2 (0.112197s)
+2020-08-08 19:35:04  2 elements are found.
+2020-08-08 19:35:10  Job done, dumping the data.
+2020-08-08 19:35:10  27 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_whatsapp-vulnerability-allowed-secretive-installation-of-spyware.416619.json'
+2020-08-08 19:35:10  Job closed.
+2020-08-08 19:35:10  Finding next job.
+2020-08-08 19:35:10  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/
+2020-08-08 19:35:10  Job started.
+2020-08-08 19:35:10  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/?page=1 (0.140979s)
+2020-08-08 19:35:10  25 elements are found.
+2020-08-08 19:35:17  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-2?page=2 (0.14365s)
+2020-08-08 19:35:17  25 elements are found.
+2020-08-08 19:35:23  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-3?page=3 (0.143202s)
+2020-08-08 19:35:23  25 elements are found.
+2020-08-08 19:35:29  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-4?page=4 (0.14467s)
+2020-08-08 19:35:29  25 elements are found.
+2020-08-08 19:35:36  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-5?page=5 (0.153994s)
+2020-08-08 19:35:36  25 elements are found.
+2020-08-08 19:35:42  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-6?page=6 (0.140112s)
+2020-08-08 19:35:42  25 elements are found.
+2020-08-08 19:35:48  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-7?page=7 (0.14281s)
+2020-08-08 19:35:48  25 elements are found.
+2020-08-08 19:35:55  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-8?page=8 (0.135371s)
+2020-08-08 19:35:55  25 elements are found.
+2020-08-08 19:36:01  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-9?page=9 (0.137565s)
+2020-08-08 19:36:01  25 elements are found.
+2020-08-08 19:36:07  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-10?page=10 (0.1586s)
+2020-08-08 19:36:07  25 elements are found.
+2020-08-08 19:36:14  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-11?page=11 (0.14214s)
+2020-08-08 19:36:14  25 elements are found.
+2020-08-08 19:36:20  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-12?page=12 (0.145513s)
+2020-08-08 19:36:20  25 elements are found.
+2020-08-08 19:36:26  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-13?page=13 (0.145982s)
+2020-08-08 19:36:26  25 elements are found.
+2020-08-08 19:36:33  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-14?page=14 (0.14102s)
+2020-08-08 19:36:33  25 elements are found.
+2020-08-08 19:36:39  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-15?page=15 (0.14703s)
+2020-08-08 19:36:39  25 elements are found.
+2020-08-08 19:36:45  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-16?page=16 (0.153391s)
+2020-08-08 19:36:45  25 elements are found.
+2020-08-08 19:36:52  https://www.wilderssecurity.com/threads/what-is-your-android-security-setup-these-days.359465/page-17?page=17 (0.09822s)
+2020-08-08 19:36:52  2 elements are found.
+2020-08-08 19:36:58  Job done, dumping the data.
+2020-08-08 19:36:58  402 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_what-is-your-android-security-setup-these-days.359465.json'
+2020-08-08 19:36:58  Job closed.
+2020-08-08 19:36:58  Finding next job.
+2020-08-08 19:36:58  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/a-new-reason-to-not-buy-these-cheap-android-devices-complimentary-malware.404128/
+2020-08-08 19:36:58  Job started.
+2020-08-08 19:36:58  https://www.wilderssecurity.com/threads/a-new-reason-to-not-buy-these-cheap-android-devices-complimentary-malware.404128/?page=1 (0.147571s)
+2020-08-08 19:36:58  17 elements are found.
+2020-08-08 19:37:04  Job done, dumping the data.
+2020-08-08 19:37:04  17 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_a-new-reason-to-not-buy-these-cheap-android-devices-complimentary-malware.404128.json'
+2020-08-08 19:37:04  Job closed.
+2020-08-08 19:37:04  Finding next job.
+2020-08-08 19:37:04  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/mobile-banking-users-targeted-in-sms-phishing-campaign.426240/
+2020-08-08 19:37:04  Job started.
+2020-08-08 19:37:04  https://www.wilderssecurity.com/threads/mobile-banking-users-targeted-in-sms-phishing-campaign.426240/?page=1 (0.1124s)
+2020-08-08 19:37:04  2 elements are found.
+2020-08-08 19:37:10  Job done, dumping the data.
+2020-08-08 19:37:10  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_mobile-banking-users-targeted-in-sms-phishing-campaign.426240.json'
+2020-08-08 19:37:10  Job closed.
+2020-08-08 19:37:10  Finding next job.
+2020-08-08 19:37:10  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/need-android-texting-app-with-spam-blocking.430580/
+2020-08-08 19:37:10  Job started.
+2020-08-08 19:37:10  https://www.wilderssecurity.com/threads/need-android-texting-app-with-spam-blocking.430580/?page=1 (0.109665s)
+2020-08-08 19:37:10  1 elements are found.
+2020-08-08 19:37:16  Job done, dumping the data.
+2020-08-08 19:37:16  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_need-android-texting-app-with-spam-blocking.430580.json'
+2020-08-08 19:37:16  Job closed.
+2020-08-08 19:37:16  Finding next job.
+2020-08-08 19:37:16  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/stealthy-android-trojan-spy-signs-you-up-for-premium-subscriptions.420670/
+2020-08-08 19:37:16  Job started.
+2020-08-08 19:37:17  https://www.wilderssecurity.com/threads/stealthy-android-trojan-spy-signs-you-up-for-premium-subscriptions.420670/?page=1 (0.108233s)
+2020-08-08 19:37:17  3 elements are found.
+2020-08-08 19:37:23  Job done, dumping the data.
+2020-08-08 19:37:23  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_stealthy-android-trojan-spy-signs-you-up-for-premium-subscriptions.420670.json'
+2020-08-08 19:37:23  Job closed.
+2020-08-08 19:37:23  Finding next job.
+2020-08-08 19:37:23  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/android-11-brings-numerous-security-and-privacy-improvements.429777/
+2020-08-08 19:37:23  Job started.
+2020-08-08 19:37:23  https://www.wilderssecurity.com/threads/android-11-brings-numerous-security-and-privacy-improvements.429777/?page=1 (0.115893s)
+2020-08-08 19:37:23  3 elements are found.
+2020-08-08 19:37:29  Job done, dumping the data.
+2020-08-08 19:37:29  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_android-11-brings-numerous-security-and-privacy-improvements.429777.json'
+2020-08-08 19:37:29  Job closed.
+2020-08-08 19:37:29  Finding next job.
+2020-08-08 19:37:29  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/apple-and-t-mobile-face-class-action-lawsuit-over-an-iphone-security-flaw-imessage-and-facetime.430533/
+2020-08-08 19:37:29  Job started.
+2020-08-08 19:37:29  https://www.wilderssecurity.com/threads/apple-and-t-mobile-face-class-action-lawsuit-over-an-iphone-security-flaw-imessage-and-facetime.430533/?page=1 (0.101109s)
+2020-08-08 19:37:29  1 elements are found.
+2020-08-08 19:37:35  Job done, dumping the data.
+2020-08-08 19:37:35  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_apple-and-t-mobile-face-class-action-lawsuit-over-an-iphone-security-flaw-imessage-and-facetime.430533.json'
+2020-08-08 19:37:35  Job closed.
+2020-08-08 19:37:35  Finding next job.
+2020-08-08 19:37:35  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/cerberus-banking-trojan-infiltrates-google-play.430500/
+2020-08-08 19:37:35  Job started.
+2020-08-08 19:37:35  https://www.wilderssecurity.com/threads/cerberus-banking-trojan-infiltrates-google-play.430500/?page=1 (0.106782s)
+2020-08-08 19:37:35  1 elements are found.
+2020-08-08 19:37:41  Job done, dumping the data.
+2020-08-08 19:37:41  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_cerberus-banking-trojan-infiltrates-google-play.430500.json'
+2020-08-08 19:37:41  Job closed.
+2020-08-08 19:37:41  Finding next job.
+2020-08-08 19:37:41  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/android-users-hit-with-undeletable-adware.430496/
+2020-08-08 19:37:41  Job started.
+2020-08-08 19:37:41  https://www.wilderssecurity.com/threads/android-users-hit-with-undeletable-adware.430496/?page=1 (0.09753s)
+2020-08-08 19:37:41  2 elements are found.
+2020-08-08 19:37:47  Job done, dumping the data.
+2020-08-08 19:37:47  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_android-users-hit-with-undeletable-adware.430496.json'
+2020-08-08 19:37:47  Job closed.
+2020-08-08 19:37:47  Finding next job.
+2020-08-08 19:37:47  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/google-has-banned-almost-600-apps-for-pushing-disruptive-ads.426303/
+2020-08-08 19:37:47  Job started.
+2020-08-08 19:37:47  https://www.wilderssecurity.com/threads/google-has-banned-almost-600-apps-for-pushing-disruptive-ads.426303/?page=1 (0.120721s)
+2020-08-08 19:37:47  4 elements are found.
+2020-08-08 19:37:53  Job done, dumping the data.
+2020-08-08 19:37:53  4 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_google-has-banned-almost-600-apps-for-pushing-disruptive-ads.426303.json'
+2020-08-08 19:37:53  Job closed.
+2020-08-08 19:37:53  Finding next job.
+2020-08-08 19:37:53  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/la-sues-weather-channel-app-owner-over-fraudulent-data-use.411835/
+2020-08-08 19:37:53  Job started.
+2020-08-08 19:37:54  https://www.wilderssecurity.com/threads/la-sues-weather-channel-app-owner-over-fraudulent-data-use.411835/?page=1 (0.109356s)
+2020-08-08 19:37:54  5 elements are found.
+2020-08-08 19:38:00  Job done, dumping the data.
+2020-08-08 19:38:00  5 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_la-sues-weather-channel-app-owner-over-fraudulent-data-use.411835.json'
+2020-08-08 19:38:00  Job closed.
+2020-08-08 19:38:00  Finding next job.
+2020-08-08 19:38:00  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/mozilla-previews-a-redesigned-and-faster-firefox-for-android.418168/
+2020-08-08 19:38:00  Job started.
+2020-08-08 19:38:00  https://www.wilderssecurity.com/threads/mozilla-previews-a-redesigned-and-faster-firefox-for-android.418168/?page=1 (0.150861s)
+2020-08-08 19:38:00  19 elements are found.
+2020-08-08 19:38:06  Job done, dumping the data.
+2020-08-08 19:38:06  19 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_mozilla-previews-a-redesigned-and-faster-firefox-for-android.418168.json'
+2020-08-08 19:38:06  Job closed.
+2020-08-08 19:38:06  Finding next job.
+2020-08-08 19:38:06  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/samsung-updates-select-newer-phones-with-the-july-2020-security-patch.430401/
+2020-08-08 19:38:06  Job started.
+2020-08-08 19:38:06  https://www.wilderssecurity.com/threads/samsung-updates-select-newer-phones-with-the-july-2020-security-patch.430401/?page=1 (0.103576s)
+2020-08-08 19:38:06  1 elements are found.
+2020-08-08 19:38:12  Job done, dumping the data.
+2020-08-08 19:38:12  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_samsung-updates-select-newer-phones-with-the-july-2020-security-patch.430401.json'
+2020-08-08 19:38:12  Job closed.
+2020-08-08 19:38:12  Finding next job.
+2020-08-08 19:38:12  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/can-i-substitute-freeotp-for-google-authenticator-requirement.430360/
+2020-08-08 19:38:12  Job started.
+2020-08-08 19:38:12  https://www.wilderssecurity.com/threads/can-i-substitute-freeotp-for-google-authenticator-requirement.430360/?page=1 (0.104534s)
+2020-08-08 19:38:12  1 elements are found.
+2020-08-08 19:38:18  Job done, dumping the data.
+2020-08-08 19:38:18  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_can-i-substitute-freeotp-for-google-authenticator-requirement.430360.json'
+2020-08-08 19:38:18  Job closed.
+2020-08-08 19:38:18  Finding next job.
+2020-08-08 19:38:18  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/fakespy-android-malware-now-significantly-more-powerful.430336/
+2020-08-08 19:38:18  Job started.
+2020-08-08 19:38:18  https://www.wilderssecurity.com/threads/fakespy-android-malware-now-significantly-more-powerful.430336/?page=1 (0.099208s)
+2020-08-08 19:38:18  1 elements are found.
+2020-08-08 19:38:24  Job done, dumping the data.
+2020-08-08 19:38:24  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_fakespy-android-malware-now-significantly-more-powerful.430336.json'
+2020-08-08 19:38:24  Job closed.
+2020-08-08 19:38:24  Finding next job.
+2020-08-08 19:38:24  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/google-removes-25-android-apps-caught-stealing-facebook-credentials.430303/
+2020-08-08 19:38:24  Job started.
+2020-08-08 19:38:24  https://www.wilderssecurity.com/threads/google-removes-25-android-apps-caught-stealing-facebook-credentials.430303/?page=1 (0.103433s)
+2020-08-08 19:38:24  1 elements are found.
+2020-08-08 19:38:30  Job done, dumping the data.
+2020-08-08 19:38:30  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_google-removes-25-android-apps-caught-stealing-facebook-credentials.430303.json'
+2020-08-08 19:38:30  Job closed.
+2020-08-08 19:38:30  Finding next job.
+2020-08-08 19:38:30  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/google-is-now-testing-incognito-mode-for-maps.421237/
+2020-08-08 19:38:30  Job started.
+2020-08-08 19:38:31  https://www.wilderssecurity.com/threads/google-is-now-testing-incognito-mode-for-maps.421237/?page=1 (0.124562s)
+2020-08-08 19:38:31  7 elements are found.
+2020-08-08 19:38:37  Job done, dumping the data.
+2020-08-08 19:38:37  7 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_google-is-now-testing-incognito-mode-for-maps.421237.json'
+2020-08-08 19:38:37  Job closed.
+2020-08-08 19:38:37  Finding next job.
+2020-08-08 19:38:37  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/google-now-lets-you-set-a-time-limit-to-auto-delete-location-history-and-web-activity-data.418123/
+2020-08-08 19:38:37  Job started.
+2020-08-08 19:38:37  https://www.wilderssecurity.com/threads/google-now-lets-you-set-a-time-limit-to-auto-delete-location-history-and-web-activity-data.418123/?page=1 (0.115779s)
+2020-08-08 19:38:37  2 elements are found.
+2020-08-08 19:38:43  Job done, dumping the data.
+2020-08-08 19:38:43  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_google-now-lets-you-set-a-time-limit-to-auto-delete-location-history-and-web-activity-data.418123.json'
+2020-08-08 19:38:43  Job closed.
+2020-08-08 19:38:43  Finding next job.
+2020-08-08 19:38:43  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/coronavirus-tracking-app-locks-up-android-phones-for-ransom.427005/
+2020-08-08 19:38:43  Job started.
+2020-08-08 19:38:43  https://www.wilderssecurity.com/threads/coronavirus-tracking-app-locks-up-android-phones-for-ransom.427005/?page=1 (0.142618s)
+2020-08-08 19:38:43  11 elements are found.
+2020-08-08 19:38:49  Job done, dumping the data.
+2020-08-08 19:38:49  11 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_coronavirus-tracking-app-locks-up-android-phones-for-ransom.427005.json'
+2020-08-08 19:38:49  Job closed.
+2020-08-08 19:38:49  Finding next job.
+2020-08-08 19:38:49  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/microsoft-is-bringing-its-antivirus-software-to-ios-and-android.426294/
+2020-08-08 19:38:49  Job started.
+2020-08-08 19:38:49  https://www.wilderssecurity.com/threads/microsoft-is-bringing-its-antivirus-software-to-ios-and-android.426294/?page=1 (0.113946s)
+2020-08-08 19:38:49  4 elements are found.
+2020-08-08 19:38:55  Job done, dumping the data.
+2020-08-08 19:38:55  4 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_microsoft-is-bringing-its-antivirus-software-to-ios-and-android.426294.json'
+2020-08-08 19:38:55  Job closed.
+2020-08-08 19:38:55  Finding next job.
+2020-08-08 19:38:55  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/apple-modifies-app-review-process-letting-developers-challenge-guidelines.430095/
+2020-08-08 19:38:55  Job started.
+2020-08-08 19:38:55  https://www.wilderssecurity.com/threads/apple-modifies-app-review-process-letting-developers-challenge-guidelines.430095/?page=1 (0.100674s)
+2020-08-08 19:38:55  1 elements are found.
+2020-08-08 19:39:01  Job done, dumping the data.
+2020-08-08 19:39:01  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_apple-modifies-app-review-process-letting-developers-challenge-guidelines.430095.json'
+2020-08-08 19:39:01  Job closed.
+2020-08-08 19:39:01  Finding next job.
+2020-08-08 19:39:01  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/double-double-tracking-how-tim-hortons-knows-where-you-sleep-work-and-vacation.429782/
+2020-08-08 19:39:01  Job started.
+2020-08-08 19:39:01  https://www.wilderssecurity.com/threads/double-double-tracking-how-tim-hortons-knows-where-you-sleep-work-and-vacation.429782/?page=1 (0.107807s)
+2020-08-08 19:39:01  3 elements are found.
+2020-08-08 19:39:07  Job done, dumping the data.
+2020-08-08 19:39:07  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_double-double-tracking-how-tim-hortons-knows-where-you-sleep-work-and-vacation.429782.json'
+2020-08-08 19:39:07  Job closed.
+2020-08-08 19:39:07  Finding next job.
+2020-08-08 19:39:07  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/emergent-android-banking-trojan-ginp-shows-app-overlay-attacks-are-still-effective.423373/
+2020-08-08 19:39:07  Job started.
+2020-08-08 19:39:08  https://www.wilderssecurity.com/threads/emergent-android-banking-trojan-ginp-shows-app-overlay-attacks-are-still-effective.423373/?page=1 (0.118363s)
+2020-08-08 19:39:08  3 elements are found.
+2020-08-08 19:39:14  Job done, dumping the data.
+2020-08-08 19:39:14  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_emergent-android-banking-trojan-ginp-shows-app-overlay-attacks-are-still-effective.423373.json'
+2020-08-08 19:39:14  Job closed.
+2020-08-08 19:39:14  Finding next job.
+2020-08-08 19:39:14  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/widespread-security-vulnerabilities-in-mobile-banking-apps.429908/
+2020-08-08 19:39:14  Job started.
+2020-08-08 19:39:14  https://www.wilderssecurity.com/threads/widespread-security-vulnerabilities-in-mobile-banking-apps.429908/?page=1 (0.106243s)
+2020-08-08 19:39:14  1 elements are found.
+2020-08-08 19:39:20  Job done, dumping the data.
+2020-08-08 19:39:20  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_widespread-security-vulnerabilities-in-mobile-banking-apps.429908.json'
+2020-08-08 19:39:20  Job closed.
+2020-08-08 19:39:20  Finding next job.
+2020-08-08 19:39:20  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/android-actionspy-malware-targets-turkic-minority-group.429779/
+2020-08-08 19:39:20  Job started.
+2020-08-08 19:39:20  https://www.wilderssecurity.com/threads/android-actionspy-malware-targets-turkic-minority-group.429779/?page=1 (0.093849s)
+2020-08-08 19:39:20  1 elements are found.
+2020-08-08 19:39:26  Job done, dumping the data.
+2020-08-08 19:39:26  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_android-actionspy-malware-targets-turkic-minority-group.429779.json'
+2020-08-08 19:39:26  Job closed.
+2020-08-08 19:39:26  Finding next job.
+2020-08-08 19:39:26  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/researcher-demonstrates-android-app-hacking-via-intents.429775/
+2020-08-08 19:39:26  Job started.
+2020-08-08 19:39:26  https://www.wilderssecurity.com/threads/researcher-demonstrates-android-app-hacking-via-intents.429775/?page=1 (0.111442s)
+2020-08-08 19:39:26  1 elements are found.
+2020-08-08 19:39:32  Job done, dumping the data.
+2020-08-08 19:39:32  1 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_researcher-demonstrates-android-app-hacking-via-intents.429775.json'
+2020-08-08 19:39:32  Job closed.
+2020-08-08 19:39:32  Finding next job.
+2020-08-08 19:39:32  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/fbi-warns-of-increased-hacking-risk-if-using-mobile-banking-apps.429708/
+2020-08-08 19:39:32  Job started.
+2020-08-08 19:39:32  https://www.wilderssecurity.com/threads/fbi-warns-of-increased-hacking-risk-if-using-mobile-banking-apps.429708/?page=1 (0.104445s)
+2020-08-08 19:39:32  3 elements are found.
+2020-08-08 19:39:38  Job done, dumping the data.
+2020-08-08 19:39:38  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_fbi-warns-of-increased-hacking-risk-if-using-mobile-banking-apps.429708.json'
+2020-08-08 19:39:38  Job closed.
+2020-08-08 19:39:38  Finding next job.
+2020-08-08 19:39:38  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/click-fraud-malware-found-lurking-in-more-than-50-play-store-apps.427313/
+2020-08-08 19:39:38  Job started.
+2020-08-08 19:39:38  https://www.wilderssecurity.com/threads/click-fraud-malware-found-lurking-in-more-than-50-play-store-apps.427313/?page=1 (0.108926s)
+2020-08-08 19:39:38  2 elements are found.
+2020-08-08 19:39:44  Job done, dumping the data.
+2020-08-08 19:39:44  2 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_click-fraud-malware-found-lurking-in-more-than-50-play-store-apps.427313.json'
+2020-08-08 19:39:44  Job closed.
+2020-08-08 19:39:44  Finding next job.
+2020-08-08 19:39:44  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/these-hugely-popular-android-apps-have-been-committing-ad-fraud-behind-users-backs.410682/
+2020-08-08 19:39:44  Job started.
+2020-08-08 19:39:45  https://www.wilderssecurity.com/threads/these-hugely-popular-android-apps-have-been-committing-ad-fraud-behind-users-backs.410682/?page=1 (0.131679s)
+2020-08-08 19:39:45  10 elements are found.
+2020-08-08 19:39:51  Job done, dumping the data.
+2020-08-08 19:39:51  10 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_these-hugely-popular-android-apps-have-been-committing-ad-fraud-behind-users-backs.410682.json'
+2020-08-08 19:39:51  Job closed.
+2020-08-08 19:39:51  Finding next job.
+2020-08-08 19:39:51  module: wildersecurity_questions, URL: http://www.wilderssecurity.com/threads/viral-apps-removed-from-play-store-for-violating-policy.429511/
+2020-08-08 19:39:51  Job started.
+2020-08-08 19:39:51  https://www.wilderssecurity.com/threads/viral-apps-removed-from-play-store-for-violating-policy.429511/?page=1 (0.108571s)
+2020-08-08 19:39:51  3 elements are found.
+2020-08-08 19:39:57  Job done, dumping the data.
+2020-08-08 19:39:57  3 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/http_www.wilderssecurity.com_threads_viral-apps-removed-from-play-store-for-violating-policy.429511.json'
+2020-08-08 19:39:57  Job closed.
+2020-08-08 19:39:57  Finding next job.
+2020-08-08 19:39:57  No more jobs.
+2020-08-09 06:25:54  Centipede starts!
+2020-08-09 06:25:54  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 06:25:54  Finding next job.
+2020-08-09 06:25:54  module: wildersecurity_thread, URL: https://www.wilderssecurity.com/forums/mobile-device-security.141/
+2020-08-09 06:25:54  Job started.
+2020-08-09 06:25:54  https://www.wilderssecurity.com/forums/mobile-device-security.141/?page=1 (0.265904s)
+2020-08-09 06:25:54  25 elements are found.
+2020-08-09 06:25:54  Adding new jobs:
+2020-08-09 06:25:54  25 new jobs are added.
+2020-08-09 06:26:30  Centipede starts!
+2020-08-09 06:26:30  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 06:26:30  Finding next job.
+2020-08-09 06:26:30  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 06:26:30  Job started.
+2020-08-09 06:26:30  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/?page=1 (0.295901s)
+2020-08-09 06:26:30  25 elements are found.
+2020-08-09 06:26:37  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/page-2?page=2 (0.106592s)
+2020-08-09 06:26:37  5 elements are found.
+2020-08-09 06:26:43  Job done, dumping the data.
+2020-08-09 06:26:43  30 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 06:26:43  Job closed.
+2020-08-09 06:26:43  Finding next job.
+2020-08-09 06:26:43  No more jobs.
+2020-08-09 06:27:04  Centipede starts!
+2020-08-09 06:27:04  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 06:27:04  Finding next job.
+2020-08-09 06:27:04  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 06:27:04  Job started.
+2020-08-09 06:27:05  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/?page=1 (0.293174s)
+2020-08-09 06:27:05  25 elements are found.
+2020-08-09 06:27:11  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/page-2?page=2 (0.100468s)
+2020-08-09 06:27:11  5 elements are found.
+2020-08-09 06:27:17  Job done, dumping the data.
+2020-08-09 06:27:17  30 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 06:27:17  Job closed.
+2020-08-09 06:27:17  Finding next job.
+2020-08-09 06:27:17  No more jobs.
+2020-08-09 08:29:47  Centipede starts!
+2020-08-09 08:29:47  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 08:29:47  Finding next job.
+2020-08-09 08:29:47  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 08:29:47  Job started.
+2020-08-09 08:29:47  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.0?page=0.0 (0.273621s)
+2020-08-09 08:29:47  0 elements are found.
+2020-08-09 08:29:53  Job done, dumping the data.
+2020-08-09 08:29:53  0 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 08:29:53  Job closed.
+2020-08-09 08:29:53  Finding next job.
+2020-08-09 08:29:53  No more jobs.
+2020-08-09 08:30:49  Centipede starts!
+2020-08-09 08:30:49  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 08:30:49  Finding next job.
+2020-08-09 08:30:49  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 08:30:49  Job started.
+2020-08-09 08:30:49  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.0?page=0.0 (0.222548s)
+2020-08-09 08:30:49  0 elements are found.
+2020-08-09 08:30:55  Job done, dumping the data.
+2020-08-09 08:30:55  0 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 08:30:55  Job closed.
+2020-08-09 08:30:55  Finding next job.
+2020-08-09 08:30:55  No more jobs.
+2020-08-09 08:33:38  Centipede starts!
+2020-08-09 08:33:38  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 08:33:38  Finding next job.
+2020-08-09 08:33:38  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 08:33:38  Job started.
+2020-08-09 08:33:38  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.0?page=0.0 (0.234765s)
+2020-08-09 08:33:38  0 elements are found.
+2020-08-09 08:33:44  Job done, dumping the data.
+2020-08-09 08:33:44  0 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 08:33:44  Job closed.
+2020-08-09 08:33:44  Finding next job.
+2020-08-09 08:33:44  No more jobs.
+2020-08-09 08:33:55  Centipede starts!
+2020-08-09 08:33:55  Job filename: /home/jeff/ForumCrawler/wilder_job.2020-08-09.jobs
+2020-08-09 08:33:55  Finding next job.
+2020-08-09 08:33:55  module: wildersecurity_questions, URL: https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.399006/
+2020-08-09 08:33:55  Job started.
+2020-08-09 08:33:55  https://www.wilderssecurity.com/threads/secureaplus-mobile-version-android.0?page=0.0 (0.22991s)
+2020-08-09 08:33:55  0 elements are found.
+2020-08-09 08:34:01  Job done, dumping the data.
+2020-08-09 08:34:01  0 records are dumped to '/home/jeff/ForumCrawler/tmp/wilder_job.2020-08-09/https_www.wilderssecurity.com_threads_secureaplus-mobile-version-android.399006.json'
+2020-08-09 08:34:01  Job closed.
+2020-08-09 08:34:01  Finding next job.
+2020-08-09 08:34:01  No more jobs.

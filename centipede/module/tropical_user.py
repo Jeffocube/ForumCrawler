@@ -5,30 +5,40 @@ http_rules = {
         'value' : 1,
     },
 
-    # 'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]//a[last()][contains(@class,"text")]')) == 0,
-
-    #'stop' : lambda x: len(x.xpath('//*[@id="main_content_section"]/div[2]/div/strong')) == 1,
-     'stop' : lambda x: True,
+    'stop' :  lambda x: (True if int(x.xpath('count(/html/body/div[5]/div/div/div/div[2]/div[3]/a)')) == 0 #End when there is only one page(the one strong is showing)
+    else (True if 'All' in str(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/a[last()]/text()')[0]) #End if the page has an "All" button(happens only when there are 2 pages)
+        and int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/strong/text()')[0]) == 2
+    else (False if 'All' in str(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/a[last()]/text()')[0]) #Continuation of the last if
+        and int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/strong/text()')[0]) == 1
+    else int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/strong/text()')[0]) > int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/a[last()]/text()')[0])))), #No "All button"
+    #'stop' :  lambda x: True if 'All' in str(x.xpath('/html/body/div[5]/div/div/div/div[2]/div[3]/a[last()]/text()')[0]) else False
 }
 elements={
-    'path': '//*[@id="quickModForm"]/div[5]/div',
+    'path': '/html/body/div[5]/div/div/div/div[3]/form/div',
     'attributes': {
         'mainText': {
-            'path': './div[2]/div[2]/div/text()',
+            'path': './div/div[2]/div[2]/div/text()',
             'attrib': 'text',},
+        'mainTextLinks': {
+            'path': './div/div[2]/div[2]/div/a',
+            'attrib': 'href',},
         'username': {
-            'path': './div[1]/h4/a/text()',
+            'path': './div/div[1]/h4/a/text()',
             'attrib': 'text',},
+        #'guest': {
+        #    'path': './div/div[1]/h4/text()',
+        #    'attrib': 'text',
+        #    'regex' : '[^\n\t]+',},
         'dateTime': {
-            'path': './div[2]/div[1]/div/div[2]/text()[2]',
+            'path': './div/div[2]/div[1]/div/div[2]/text()[2]',
             'attrib': 'text',
             'regex' : '[^\n\t]+',},
         'postID': {
-            'path': './div[2]/div[1]/div/h5',
+            'path': './div/div[2]/div[1]/div/h5',
             'attrib': 'id',
             'regex' : r'\d+',},
         'quoteLink': {
-            'path': './div[2]/div[2]/div/div[1]/div/a',
+            'path': './div/div[2]/div[2]/div/div[1]/div/a',
             'attrib': 'href',
             'regex' : r'[\d]+$',},
     }

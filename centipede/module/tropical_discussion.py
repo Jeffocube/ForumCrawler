@@ -10,17 +10,23 @@ http_rules = {
      'stop' : lambda x: True,
 }
 elements = {
-    'path':'//*[@id="boardindex_table"]/table/tbody[contains(@class, "content")]/tr[contains(@id,"board")]',
+    'path':'/html/body/div[5]/div/div/div/div[2]/table/tbody[contains(@id, "boards")]/tr[contains(@id, "board")]',
     'attributes':{
         'subject':{
-            'path': './td[contains(@class, "info")]/a/text()',
+            'path': './td[2]/a/text()',
             'attrib': 'text'},
         'subtext':{
-            'path': './td[contains(@class, "info")]/p[1]/text()',
+            'path': './td[2]/p/text()',
             'attrib': 'text'},
         'posts':{
-            'path': './td[contains(@class, "info")]/td[3]/p/text()',
+            'path': './td[3]/p/text()',
             'attrib': 'text'},
 
     }
 }
+new_jobs = [{
+    #'path' : '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]/div[2]/div/h3/a',
+    'path' : '//*[contains(@id,"board")]/td[2]/a',
+    'module': 'tropical_thread',
+    'prefix': 'http://www.tropicalfruitforum.com/',
+}]
