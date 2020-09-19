@@ -7,13 +7,12 @@ http_rules = {
         'value' : 1,
     },
     'stop' : lambda x: len(x.xpath('//*[@id="content"]/div/div/div[3]/div[2]/nav/a[last()][contains(@class,"text")]')) == 0
-    #'stop' :  lambda x: int(x.xpath('//*[@id="content"]/div/div/div[3]//a[contains(@class,"currentPage")]/text()')[0]) == 2,
-    # 'stop' : lambda x: True,
+     #'stop' : lambda x: True,
 }
 elements = {
     'path': '//*[contains(@class, "message ")]',
     'attributes': {
-        'messageID': {
+        'postID': {
             'attrib': 'id',
             'regex' : r'\d+'},
         'mainText': {
