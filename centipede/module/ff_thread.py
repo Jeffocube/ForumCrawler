@@ -19,12 +19,9 @@ elements = {
         'username': {
             'path': './div[2]/div[2]/ul/li[1]/a/text()',
             'attrib': 'text',},
-        'date': {
+        'dateTime': {
             'path': './html/body/div[1]/div[2]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/ul/li[2]/a/time',
-            'attrib': 'data-date-string',},
-        'time': {
-            'path': './html/body/div[1]/div[2]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/ul/li[2]/a/time',
-            'attrib': 'data-time-string',},
+            'attrib': 'datetime',},
         'threadURL': {
             'path': './html/body/div[1]/div[2]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div/div[2]/div[2]/div/div[2]/div[1]/div[2]/div[2]/ul/li[2]/a',
             'attrib': 'href',},
