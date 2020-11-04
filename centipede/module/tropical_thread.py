@@ -12,7 +12,7 @@ http_rules = {
     else(False if 'All' in x.xpath('/html/body/div[5]/div/div/div/div[2]/div/a[last()]/text()')[0]
         and int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/strong/text()')[0]) == 1
     else int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/strong/text()')[0]) > int(x.xpath('/html/body/div[5]/div/div/div/div[2]/div/a[last()]/text()')[0])))),
-    # 'stop' : lambda x: True,
+     #'stop' : lambda x: True,
 }
 elements = {
     'path': '//*[@id="messageindex"]/table/tbody/tr',
@@ -30,19 +30,16 @@ elements = {
         'url': {
             'path': './td[3]/div/span/a',
             'attrib': 'href',},
-        'tid': {
-            'path': './td[3]/div/span',
-            'attrib': 'id',
-            'regex' : r'\d+'},
         'discussion': {
             'path': '/html/body/div[5]/div/div/div/div[1]/ul/li[3]/a[1]/span/text()',
             'attrib': 'text',},
     }
 }
-
+'''
 new_jobs = [{
     #'path' : '//*[@id="content"]/div/div/div[4]/form/ol/li[contains(@id,"thread")]/div[2]/div/h3/a',
     'path' : '//*[contains(@id,"msg")]/a',
     'module': 'tropical_user',
     'prefix': 'http://www.tropicalfruitforum.com/',
 }]
+'''

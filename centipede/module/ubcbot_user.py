@@ -32,5 +32,8 @@ elements = {
             'path': './div[1]/article/blockquote/a',
             'attrib': 'href',
             'regex' : r'[\d]+$',},
+        'parentLink': {
+            'path': '/html/body/div[2]/div/div[3]/div/div/div[2]/p/a[3]',
+            'attrib': 'href',},
     }
 }

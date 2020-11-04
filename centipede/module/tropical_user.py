@@ -25,10 +25,7 @@ elements={
         'username': {
             'path': './div/div[1]/h4/a/text()',
             'attrib': 'text',},
-        #'guest': {
-        #    'path': './div/div[1]/h4/text()',
-        #    'attrib': 'text',
-        #    'regex' : '[^\n\t]+',},
+
         'dateTime': {
             'path': './div/div[2]/div[1]/div/div[2]/text()[2]',
             'attrib': 'text',
@@ -41,5 +38,8 @@ elements={
             'path': './div/div[2]/div[2]/div/div[1]/div/a',
             'attrib': 'href',
             'regex' : r'[\d]+$',},
+        'parentLink': {
+            'path': '/html/body/div[5]/div/div/div/div[1]/ul/li[4]/a',
+            'attrib': 'href',},
     }
 }
